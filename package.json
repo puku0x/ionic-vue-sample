@@ -1,0 +1,56 @@
+{
+  "name": "ionic-vue-sample",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@capacitor/android": "~1.2.0",
+    "@capacitor/core": "~1.2.0",
+    "@capacitor/ios": "~1.2.0",
+    "@ionic/vue": "~0.0.9",
+    "core-js": "~2.6.0",
+    "vue": "~2.6.0",
+    "vue-router": "~3.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "~1.2.0",
+    "@vue/cli-plugin-babel": "~3.11.0",
+    "@vue/cli-plugin-eslint": "~3.11.0",
+    "@vue/cli-service": "~3.11.0",
+    "@vue/eslint-config-prettier": "~5.0.0",
+    "babel-eslint": "~10.0.0",
+    "eslint": "~6.3.0",
+    "eslint-plugin-prettier": "~3.1.0",
+    "eslint-plugin-vue": "~5.2.0",
+    "prettier": "~1.18.0",
+    "vue-cli-plugin-ionic": "^1.0.0-alpha.1",
+    "vue-template-compiler": "~2.6.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/prettier"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
